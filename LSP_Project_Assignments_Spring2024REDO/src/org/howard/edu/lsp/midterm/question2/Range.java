@@ -12,4 +12,7 @@ public interface Range {
 	//Returns the number of integers in the range
 	public int size();
 
+	public int getLowerBound();
+	
+	public int getUpperBound();
 }
