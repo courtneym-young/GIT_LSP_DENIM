@@ -187,7 +187,7 @@ public class IntegerSetTest {
 	public void testToString() {
 		my_set.add(2);
 		my_set.add(4);
-		assertEquals("[2, 4", my_set.toString());
+		assertEquals("[2, 4]", my_set.toString());
 	}
 
 }
