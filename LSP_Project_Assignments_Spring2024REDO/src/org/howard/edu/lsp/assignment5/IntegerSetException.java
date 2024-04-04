@@ -1,10 +1,15 @@
 package org.howard.edu.lsp.assignment5;
 
-public class IntegerSetException {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+/**
+ * Developed a custom error that prints the string its passed
+ */
+public class IntegerSetException extends Exception {
+  /**
+   * Prints out error message
+   * 
+   * @param message String to print 
+   */
+  public IntegerSetException(String message) {
+    super(message);
+  }
 }
